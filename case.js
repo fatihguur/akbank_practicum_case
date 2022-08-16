@@ -12,6 +12,7 @@ function oddishOrEvenish(value) {
     }
 }
 
+//Test Values
 oddishOrEvenish(155);
 oddishOrEvenish(5352);
 oddishOrEvenish(82561);
