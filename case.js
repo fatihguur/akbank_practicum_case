@@ -7,7 +7,7 @@ function oddishOrEvenish(value) {
 
     if (sum % 2 === 0) {
         console.log("Evenish")
-    } else {
+    } else if (sum % 2 === 1) {
         console.log("Oddish");
     }
 }
@@ -16,3 +16,4 @@ function oddishOrEvenish(value) {
 oddishOrEvenish(155);
 oddishOrEvenish(5352);
 oddishOrEvenish(82561);
+
